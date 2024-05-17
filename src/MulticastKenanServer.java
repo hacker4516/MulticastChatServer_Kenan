@@ -3,7 +3,7 @@ import java.net.*;
 public class MulticastKenanServer {
     public static void main(String args []) throws Exception {
 
-            int portnumba = 5000;
+            int portnumba = 56;
             if (args.length >= 1) {
                 portnumba = Integer.parseInt(args[0]);
             }
